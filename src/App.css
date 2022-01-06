@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.Add-div {
+  margin-right: 23%;
+}
+
+.Text-div {
+  width: 200px;margin-top: -17px;margin-left: 38%;
+}
+
+.Remove-div {
+  width: 5px;margin-top: -33px;margin-left: 500px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

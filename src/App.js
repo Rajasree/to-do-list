@@ -19,16 +19,16 @@ function App() {
       { toDos.map((objct) => {
         return(
       <div id={objct.id}>
-        <div>
+        <div className="Add-div">
           <input onChange={(e)=>setToDos(toDos.filter(obj2=>{
             if(obj2.id===objct.id){
               obj2.status = e.target.checked
             }
             return obj2
           }))} value={objct.status} type='checkbox' name='' id=''></input>
-          <p>{objct.text}</p>
+          <p className="Text-div">{objct.text}</p>
         </div>
-        <div>
+        <div className="Remove-div">
         <i onClick={()=>setToDos(toDos.filter(obj2=>{
           if(obj2.id===objct.id){
             obj2.status = false
