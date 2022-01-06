@@ -33,11 +33,11 @@
 }
 
 .Text-div {
-  width: 200px;margin-top: -17px;margin-left: 38%;
+  width: 200px;margin-top: -17px;margin-left: 50%;
 }
 
 .Remove-div {
-  width: 5px;margin-top: -33px;margin-left: 500px;
+  width: 5px;margin-top: -33px;margin-left: 60%;
 }
 
 @keyframes App-logo-spin {
